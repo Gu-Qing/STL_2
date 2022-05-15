@@ -81,5 +81,20 @@
     <ClCompile Include="21_常用拷贝和替换算法_swap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="22_常用的算术生成算法_accumulate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23_常用算术生成算法_fill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24_常用集合算法_set_intersection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25_常用集合算法_set_union.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26_常用集合算法_set_difference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

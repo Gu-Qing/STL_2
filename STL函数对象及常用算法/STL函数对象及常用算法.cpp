@@ -95,4 +95,24 @@
 *		replace(iterator beg, iterator end, _Pred, newValue);
 *	swap	//互换两个容器的元素
 *		swap(container c1, container c2); // c1和c2是容器
+* 
+* 5.常用算术生成算法 (numeric)
+*	accumulate	//计算容器元素累计总和
+*		accumulate(iterator beg, iterator end, value); //value是起始累加值
+*	fill	//向容器中添加元素
+*		fill(iterator beg, iterator end, value); //value是填充值
+* 
+* 6.常用集合算法
+*	set_intersection	//求两个容器的交集(两个集合必须是有序序列)
+*		//返回目标容器的最后一个元素的迭代器地址
+*		set_intersection(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);
+*	set_union	//求两个容器的并集
+*		//返回并集中最后一个元素的位置迭代器
+*		set_union(iterator beg1, iterator end1, iterator beg2, iterator end2, iterator dest);
+*	set_difference	//求两个容器的差集
+*		v1: 0 1 2 3 4 5
+*		v2: 3 4 5 6 7 8
+*		v1和v2的差集——v1中不是v1和v2的交集的数：0 1 2
+*		v2和v1的差集——v2中不是v1和v2的交集的数：6 7 8
+*		set_difference(iterator beg1, iterator beg1, iterator beg2, iterator end2, iterator dest);
 */
